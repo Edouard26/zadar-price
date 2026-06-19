@@ -1,0 +1,96 @@
+trip:
+  destination: "Zadar, Croatia"
+  center_reference: "Old Town / People's Square / Roman Forum"
+  checkin: "2026-07-30"
+  checkout: "2026-08-03"
+  adults: 2
+  rooms: 1
+  currency: "EUR"
+
+alert_rules:
+  price_drop_percent: 8
+  price_drop_absolute_eur: 40
+  max_budget_eur: 450
+
+# Remplace les champs `url` par les URL directes des logements si tu les as.
+# Si url est vide, le rapport quotidien génère un lien de recherche prérempli.
+properties:
+  - id: ema_house
+    name: "EMA HOUSE"
+    platform: "booking"
+    baseline_price_eur: 320
+    rank_from_report: 1
+    url: ""
+    notes: "Bon rapport prix/emplacement d'après le rapport initial."
+
+  - id: city_center_accommodation
+    name: "City Center Accommodation"
+    platform: "booking"
+    baseline_price_eur: 280
+    rank_from_report: 2
+    url: ""
+    notes: "Prix de référence le plus bas du rapport initial."
+
+  - id: ameli_heritage_rooms_apartments
+    name: "Ameli Heritage rooms & apartments"
+    platform: "booking"
+    baseline_price_eur: 400
+    rank_from_report: 3
+    url: ""
+    notes: "Option centrale à surveiller si baisse de prix."
+
+  - id: studio_apartman_rooms_no1
+    name: "Studio apartman & Rooms No1"
+    platform: "booking"
+    baseline_price_eur: 300
+    rank_from_report: 4
+    url: ""
+    notes: "Option économique du rapport initial."
+
+  - id: ten_heritage_rooms
+    name: "10 Heritage Rooms"
+    platform: "booking"
+    baseline_price_eur: 384
+    rank_from_report: 5
+    url: ""
+    notes: "À suivre si disponibilité ou annulation gratuite."
+
+  - id: bridge_city_luxury_apartments
+    name: "The Bridge City Luxury Apartments"
+    platform: "booking"
+    baseline_price_eur: 471
+    rank_from_report: 6
+    url: ""
+    notes: "Plus cher, mais intéressant si forte baisse."
+
+  - id: de_pusterla_luxury_rooms
+    name: "De Pusterla Luxury Rooms"
+    platform: "booking"
+    baseline_price_eur: 480
+    rank_from_report: 7
+    url: ""
+    notes: "Option premium proche centre."
+
+  - id: borelli_palace_blue
+    name: "Borelli Palace & Borelli Blue"
+    platform: "booking"
+    baseline_price_eur: 500
+    rank_from_report: 8
+    url: ""
+    notes: "À surveiller principalement en cas de baisse."
+
+  - id: studio_green_olive_1
+    name: "Studio Green Olive 1"
+    platform: "airbnb"
+    baseline_price_eur: 604
+    rank_from_report: 9
+    url: ""
+    notes: "Airbnb, plus cher dans le rapport initial."
+
+  - id: studio_deluxe_withlove_zadar
+    name: "Studio de luxe Withlove Zadar"
+    platform: "airbnb"
+    baseline_price_eur: 828
+    rank_from_report: 10
+    url: ""
+    notes: "Airbnb, à retenir seulement si forte baisse."
