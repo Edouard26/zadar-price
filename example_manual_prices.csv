@@ -1,0 +1,4 @@
+property_id,name,platform,rank_from_report,baseline_price_eur,price_total_eur,available,cancellation_policy,notes,source_url
+ema_house,EMA HOUSE,booking,1,320,305,oui,annulation gratuite,exemple uniquement,https://example.com
+city_center_accommodation,City Center Accommodation,booking,2,280,280,oui,,exemple uniquement,https://example.com
+studio_green_olive_1,Studio Green Olive 1,airbnb,9,604,,non,,exemple indisponible,https://example.com
